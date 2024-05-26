@@ -3,10 +3,10 @@ import io
 import gzip
 import streamlit as st
 from passlib.hash import pbkdf2_sha256
-database=con.connect(host='localhost', 
-                     user='root',
-                     password='Bananasmoothie@123',
-                     database="LDAPROJECT")
+database=con.connect(        host="DB_HOST",
+        user="DB_USER",
+        password="DB_PASS",
+        database="DB_NAME")
 print(database.connection_id)
 
 cursor=database.cursor()
@@ -25,10 +25,10 @@ database.commit()
 
 def connect_to_database():
     return con.connect(
-        host="localhost",
-        user="root",
-        password="Bananasmoothie@123",
-        database="ldaproject"
+        host="DB_HOST",
+        user="DB_USER",
+        password="DB_PASS",
+        database="DB_NAME"
     )
 
 def register_user(username, password,mydb):
