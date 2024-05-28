@@ -1,5 +1,5 @@
 google.cloud.sql.connector
-sqlalchemy
+sqlalchemy==1.4.46
 pymysql
 io
 gzip
