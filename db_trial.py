@@ -38,6 +38,7 @@ def connect_to_database():
     con: pymysql.connections.Connection=connector.connect(
         "totemic-tower-424510-q7:us-central1:trial-sql",
         "pymysql",
+        host="35.238.10.123",
         user="main",
         password="Bananasmoothie@123",
         db="LDAPROJECT",
