@@ -1,7 +1,6 @@
 cloud-sql-python-connector
 sqlalchemy==1.4.46
 pymysql
-gzip
 passlib
 streamlit 
 time 
