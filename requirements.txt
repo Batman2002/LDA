@@ -17,6 +17,11 @@ pdfminer
 fitz
 PIL 
 cv2
+spacy
+re
+gensim
+seaborn
+matplotlib
 
 
 
