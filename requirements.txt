@@ -14,7 +14,6 @@ fitz
 pillow
 opencv-python
 spacy
-re
 gensim
 seaborn
 matplotlib
