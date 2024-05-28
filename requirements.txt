@@ -12,7 +12,7 @@ nltk
 pdfminer
 fitz
 pillow
-cv2
+opencv-python
 spacy
 re
 gensim
